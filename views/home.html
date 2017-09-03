@@ -1,0 +1,93 @@
+
+<html>
+
+<head>
+  <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1.0, user-scalable=0">
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+</head>
+<body>
+  <nav class="navbar navbar-default  firstNavbar" style="background-color: #FE7D0C; color: white;height:10vh;margin-bottom: 0;" id="nav1">
+  <div class="container-fluid text-center">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header firstNavbarHeader">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#/" style="color: white"><b>BLOGGERS.COM</b></a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse firstNavbarCollapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right colorWhite">
+       
+          
+         <li><a href="#/"></a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+  </nav>
+  <div class="container-fluid text-center" style="min-height:80vh;">
+  <center><br><br><h1>Welcome Bloggers</h1>
+  <h4>Refer the documentation given below:</h4><br><br><hr style="border-top:3px solid black"></center>
+
+  <div class="row">
+    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+      <h2>Body Fields for Blog:</h2>
+      <h4>title,subTitle,body,authorName,authorEmail,tags(array)</h4>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+      <h2>Body Fields for Comment:</h2>
+      <h4>commentText,userName</h4>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+      <h2>Get all blogs</h2>
+      <h4>GET - /blogs</h4>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+      <h2>Get a blog by id</h2>
+      <h4>GET - /blogs/[ ID of Blog ]</h4>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+      <h2>Create a Blog</h2>
+      <h4>POST - /blogs/create</h4>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+      <h2>Delete a Blog</h2>
+      <h4>POST - /blogs/[ ID of Blog ]/delete</h4>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+      <h2>Edit a blog</h2>
+      <h4>PUT - /blogs/[ ID of Blog ]/edit</h4>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+      <h2>Create a comment</h2>
+      <h4>POST - /blogs/[ ID of Blog ]/comment</h4>
+    </div>
+
+  </div>
+  </div>
+  <footer id="myFooter" style="background-color: #FE7D0C; color: white;height:10vh;">
+         <div class="container-fluid text-center">
+             <div class="row">
+                 <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                     <h5>About us</h5>
+                 </div>
+                 <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                     <h5>Support</h5>
+                 </div>
+             </div>
+         </div>
+     </footer>
+</body>
+</html>
